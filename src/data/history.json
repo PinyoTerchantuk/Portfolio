@@ -1,29 +1,39 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "imageSrc": "history/favicons.png",
+    "role": "UX/UI Project Lead",
+    "organisation": "Keap It Simple",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+      "Led UX/UI design for a financial document management platform",
+      "Created wireframes, prototypes, and high-fidelity designs using Figma",
+      "Collaborated with developers to refine user flows and accessibility",
+      "Designed a PDF export interface with visually appealing layouts"
+    ]
+  },
+  {
+    "imageSrc": "history/favicons.png",
+    "role": "Frontend Developer",
+    "organisation": "Keap It Simple",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
+    "experiences": [
+      "Developed a financial document management platform using React and Next.js",
+      "Implemented data validation and PDF exporting with jsPDF",
+      "Managed user sessions with a role-based access control system"
+    ]
+  },
+  {
+    "imageSrc": "history/favicon.png",
+    "role": "Frontend Developer",
+    "organisation": "Wok Food",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
+    "experiences": [
+      "Developed a Food Details Page to enhance user experience",
+      "Implemented dynamic data fetching using Next.js",
+      "Designed responsive UI with TailwindCSS and MaterialUI"
+    ]
   }
 ]

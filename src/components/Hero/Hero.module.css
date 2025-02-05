@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 49px;
   z-index: 1;
   margin-left: 10%;
@@ -17,12 +18,13 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  max-width: 50%;
 }
 
 .title {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 25px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -34,30 +36,36 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 24px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  line-height: 1.6;
+  margin-bottom: 40px;
 }
 
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+
+.contactBtn:hover {
+  background-color: var(--color-primary-dark);
+  transform: scale(1.05);
 }
 
 .heroImg {
-  width: 50%;
-  z-index: 1;
-
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  animation: floating 3s infinite ease-in-out;
 }
 
 @keyframes floating {
@@ -77,10 +85,9 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
-  border-radius: 764px;
+  border-radius: 50%;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
@@ -91,10 +98,9 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
-  border-radius: 764px;
+  border-radius: 50%;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
@@ -103,9 +109,27 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    align-items: center;
+    margin: 20px;
   }
 
   .content {
     align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .heroImg {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
   }
 }

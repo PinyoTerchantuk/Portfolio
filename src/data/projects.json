@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "UX/UI Design - Keap",
+    "imageSrc": "projects/ui.png",
+    "description": "Led UX/UI design for a financial document management platform",
+    "skills": ["Figma", "Design Systems", "Prototyping", "User Research"],
+    "demo": "https://www.figma.com/proto/3iXbg4bQsjxj50rr9wU7hG/Keap?node-id=38-1141&p=f",
+    "source": "https://www.figma.com/design/3iXbg4bQsjxj50rr9wU7hG/Keap"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Keap It Simple",
+    "imageSrc": "projects/Keap.png",
+    "description": "A financial document management platform with role-based access system and PDF export.",
+    "skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "NextUI", "Express.js", "jsPDF"],
+    "demo": "https://keep-silk.vercel.app/home",
+    "source": "https://github.com/janipang/KeepIt"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Wok Food",
+    "imageSrc": "projects/wok.png",
+    "description": "An online food ordering system with a dynamic UI and real-time data fetching.",
+    "skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "MaterialUI", "Express.js"],
+    "demo": "https://wok-food.vercel.app/",
+    "source": "https://github.com/chollsak/WokFood"
   }
 ]
