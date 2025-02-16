@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source, figma, keepSilk, wokFood },
+  project: { title, imageSrc, description, skills, demo, source, figma, keepSilk, wokFood, readery },
 }) => {
   return (
     <div className={styles.container}>
@@ -45,6 +45,11 @@ export const ProjectCard = ({
         {wokFood && (
           <a href={wokFood} className={styles.link} target="_blank" rel="noopener noreferrer">
             Wok Food
+          </a>
+        )}
+        {readery && (
+          <a href={readery} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Readery
           </a>
         )}
       </div>

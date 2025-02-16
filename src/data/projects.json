@@ -14,6 +14,7 @@
     "skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "NextUI", "Express.js", "jsPDF"],
     "demo": "https://keep-silk.vercel.app/home",
     "source": "https://github.com/janipang/KeepIt"
+   
   },
   {
     "title": "Wok Food",
@@ -22,5 +23,15 @@
     "skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "MaterialUI", "Express.js"],
     "demo": "https://wok-food.vercel.app/",
     "source": "https://github.com/chollsak/WokFood"
+    
+  },
+  {
+    "title": "Readery",
+    "imageSrc": "projects/project.png",
+    "description": "A digital reading platform with personalized recommendations and progress tracking.",
+    "skills": ["React", "Next.js", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
+    "demo": "https://www.figma.com/proto/kmPHxV3T2vovQvHuPeOcIw/Untitled?page-id=1%3A2&node-id=1-2787&p=f&viewport=-118%2C163%2C0.12&t=j6hqy6tbMCjdvZal-1&scaling=min-zoom&content-scaling=fixed",
+    "source": "https://www.figma.com/design/kmPHxV3T2vovQvHuPeOcIw/Untitled?node-id=0-1&t=VBu3nHvoQ1RA20em-1"
+  
   }
 ]
