@@ -1,0 +1,70 @@
+[
+  {
+    "title": "UX/UI Design - Keap",
+    "imageSrc": "projects/ui.png",
+    "description": "The KEEP IT SIMPLE (Keap) project was a high-impact initiative where you served as the Lead UI/UX Designer ",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "User Research"
+    ],
+    "demo": "https://www.figma.com/proto/3iXbg4bQsjxj50rr9wU7hG/Keap?node-id=38-1141&p=f",
+    "source": "https://www.figma.com/design/3iXbg4bQsjxj50rr9wU7hG/Keap"
+  },
+  {
+    "title": "Keap It Simple",
+    "imageSrc": "projects/Keap.png",
+    "description": "A financial document management platform with role-based access system and PDF export.",
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "NextUI",
+      "Express.js",
+      "jsPDF"
+    ],
+    "demo": "https://keep-silk.vercel.app/home",
+    "source": "https://github.com/janipang/KeepIt"
+  },
+  {
+    "title": "Wok Food",
+    "imageSrc": "projects/wok.png",
+    "description": "An online food ordering system with a dynamic UI and real-time data fetching.",
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "MaterialUI",
+      "Express.js"
+    ],
+    "demo": "https://wok-food.vercel.app/",
+    "source": "https://github.com/chollsak/WokFood"
+  },
+  {
+    "title": "LEMS - Energy Trading & Management System",
+    "imageSrc": "history/LEMS.png",
+    "description": "Lead UI/UX Designer for a blockchain-based energy trading and management system with token-based billing.",
+    "skills": [
+      "Figma",
+      "UI/UX Design",
+      "Blockchain",
+      "Prototyping"
+    ],
+    "demo": "https://www.figma.com/proto/ISd3YrL7ozHUeOBleaNTDJ/UI-Blockchain--LEMS---Postpaid-Local-Energy-Management-System--Token-Based-Billing-?page-id=6067%3A1088&node-id=6067-2251&viewport=2941%2C330%2C0.02&t=pEvaCS3cWpOxp6Dn-1&scaling=min-zoom&content-scaling=fixed",
+    "source": "https://www.figma.com/design/ISd3YrL7ozHUeOBleaNTDJ/UI-Blockchain--LEMS---Postpaid-Local-Energy-Management-System--Token-Based-Billing-?node-id=6067-1088&t=EGvG5MQW5CClZkds-1"
+  },
+  {
+    "title": "Fanruan Project",
+    "imageSrc": "projects/image (1).png",
+    "description": "A digital reading platform with personalized recommendations and progress tracking.",
+    "skills": [
+      "FineVis (3D Engine)",
+      "SQL Data Integration"
+    ],
+    "demo": "projects/Faanruan.mp4",
+    "source": "projects/Faanruan.mp4"
+  }
+]
