@@ -12,16 +12,14 @@ export const ProjectCard = ({
     return url && url.endsWith('.mp4');
   };
 
-  const getVideoUrl = (url) => {
-    if (url && isVideoFile(url)) {
-      return new URL(`/assets/${url}`, import.meta.url).href;
-    }
-    return url;
-  };
-
   const handleVideoClick = (url) => {
     if (isVideoFile(url)) {
-      setVideoUrl(getVideoUrl(url));
+      // For local video files, use getImageUrl to resolve the path
+      if (!url.startsWith('http')) {
+        setVideoUrl(getImageUrl(url));
+      } else {
+        setVideoUrl(url);
+      }
       setShowVideo(true);
     } else {
       window.open(url, "_blank", "noopener,noreferrer");
