@@ -1,0 +1,38 @@
+[
+  {
+    "imageSrc": "favicons.png",
+    "role": "UX/UI Project Lead",
+    "organisation": "Keap It Simple",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
+    "experiences": [
+      "Design Leadership: Led the UI/UX design team for a comprehensive accounting web application.",
+      "Figma Design System: Architected and maintained a robust Design System in Figma to ensure design consistency and accelerate the hand-off process between design and engineering teams.",
+      "Frontend Implementation: Actively contributed to the development phase using TypeScript and Express.js ."
+    ]
+  },
+  {
+    "imageSrc": "vanilaReport.png",
+    "role": "Frontend Developer",
+    "organisation": "Fanruan Project (SSA NETWORK)",
+    "startDate": "April, 2025",
+    "endDate": "June, 2025",
+    "experiences": [
+      "3D Interface Implementation: Developed 3D visualization models within FineVis to enhance facility monitoring and operational overview.",
+      "Data-Driven Dashboards: Designed interactive dashboards using FineReport, increasing user engagement by 30% through optimized data visualization",
+      "API & Real-Time Integration: Configured dynamic data layers and event triggers to link live CCTV feeds and real-time API data directly to dashboard components, creating a responsive and immersive user experience."
+    ]
+  },
+  {
+    "imageSrc": "blockchain.gif",
+    "role": "Lead UI/UX Designer",
+    "organisation": "Energy Trading & Management System (Blockchain)",
+    "startDate": "July, 2025",
+    "endDate": "February, 2026",
+    "experiences": [
+      "Engineered a streamlined peer-to-peer (P2P) trading journey, implementing intuitive visual feedback for blockchain transaction states and smart contract execution to ensure user confidence and transparency.",
+      "High-Fidelity Design: Created a comprehensive design system in Figma for the Admin Treasury and Building Wallet, supporting real-time monitoring of energy consumption and token balances.",
+      "Cross-functional Integration: Bridged the gap between complex blockchain backend logic and frontend UI by designing clear error-handling states and transaction feedback loops, reducing user friction during network latency events."
+    ]
+  }
+]

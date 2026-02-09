@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Figma",
+    "imageSrc": "figma.png"
+  },
+  {
+    "title": "HTML5",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS3",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "javascript.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "Nextjs.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "typescript.png"
+  },
+  {
+    "title": "TailwindCSS",
+    "imageSrc": "tailwindcss.png"
+  },
+  {
+    "title": "Material UI",
+    "imageSrc": "materialUI.png"
+  },
+  {
+    "title": "WordPress",
+    "imageSrc": "wordpress.png"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "expressjs.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "mongodb.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "python.png"
+  },
+  {
+    "title": "C/C++",
+    "imageSrc": "c++.png"
+  }
+]
