@@ -1,44 +1,70 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source, figma, keepSilk, wokFood, fanruan },
+  project: { title, imageSrc, description, tags, demoLink, sourceLink, skills, demo, source, figma, keepSilk, wokFood, fanruan },
 }) => {
-  // For Fanruan project, use fanruan as demo if demo is not set
-  const demoUrl = demo || fanruan;
+  // Handle both old and new project data formats
+  const projectTags = tags || skills || [];
+  const projectDemoLink = demoLink || demo || fanruan || figma;
+  const projectSourceLink = sourceLink || source;
+  const isImKoomOrKeap = title && (title.includes("Im-Koom") || title.includes("Keap"));
 
   return (
-    <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
+    <div className={styles.container} data-project={title}>
+      <div className={styles.imageSection}>
+        <div className={styles.imagePlaceholder}>
+          {imageSrc ? (
+            <img
+              src={imageSrc}
+              alt={`Image of ${title}`}
+              className={styles.image}
+            />
+          ) : (
+            <div className={styles.imagePlaceholderContent}>
+              <span>Project Preview</span>
+            </div>
+          )}
+        </div>
+      </div>
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
-        <ul className={styles.skills}>
-          {skills.map((skill, id) => (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
+        <div className={styles.tags}>
+          {projectTags.map((tag, id) => (
+            <span key={id} className={styles.tag}>
+              {tag}
+            </span>
           ))}
-        </ul>
-        <div className={styles.links}>
-          {demoUrl && (
-            <a href={demoUrl} className={styles.link} target="_blank" rel="noopener noreferrer">
-              Demo
+        </div>
+        <div className={styles.actions}>
+          {projectDemoLink && (
+            <a
+              href={projectDemoLink}
+              className={styles.demoButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {isImKoomOrKeap ? "DEMO" : "Demo"}
             </a>
           )}
-          {source && source !== fanruan && (
-            <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
+          {projectSourceLink && projectSourceLink !== "#" ? (
+            <a
+              href={projectSourceLink}
+              className={styles.sourceButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Source
             </a>
-          )}
-          {figma && (
-            <a href={figma} className={styles.link} target="_blank" rel="noopener noreferrer">
-              Figma
+          ) : (
+            <a
+              href={projectDemoLink || "#"}
+              className={styles.sourceButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {isImKoomOrKeap ? "SOURCE" : "CASE STUDY"}
             </a>
           )}
         </div>

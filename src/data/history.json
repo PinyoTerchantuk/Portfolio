@@ -1,14 +1,26 @@
 [
   {
-    "imageSrc": "favicons.png",
-    "role": "UX/UI Project Lead",
-    "organisation": "Keap It Simple",
-    "startDate": "Aug, 2024",
-    "endDate": "Oct, 2024",
+    "imageSrc": "Imkoommini.png",
+    "role": "UI/UX Designer",
+    "organisation": "Im-Koom Application",
+    "startDate": "March, 2026",
+    "endDate": "April, 2026",
     "experiences": [
-      "Design Leadership: Led the UI/UX design team for a comprehensive accounting web application.",
-      "Figma Design System: Architected and maintained a robust Design System in Figma to ensure design consistency and accelerate the hand-off process between design and engineering teams.",
-      "Frontend Implementation: Actively contributed to the development phase using TypeScript and Express.js ."
+      "Location-Based Discovery: Designed an intuitive map and list interface leveraging geolocation, allowing users to effortlessly discover and track nearby \"yellow-label\" discounted products at local supermarkets.",
+      "Seamless O2O Checkout Flow: Engineered a frictionless Online-to-Offline user journey that enables users to either reserve discounted items in-app or navigate to the physical store to complete transactions via an integrated scan-to-pay system.",
+      "High-Fidelity Design & Branding: Developed a vibrant, user-centric mobile UI incorporating playful 3D mascot assets to boost engagement, supported by a scalable Figma Design System to maintain visual consistency across all screens."
+    ]
+  },
+  {
+    "imageSrc": "blockchain.gif",
+    "role": "Lead UI/UX Designer",
+    "organisation": "Energy Trading & Management System (Blockchain)",
+    "startDate": "July, 2025",
+    "endDate": "February, 2026",
+    "experiences": [
+      "Engineered a streamlined peer-to-peer (P2P) trading journey, implementing intuitive visual feedback for blockchain transaction states and smart contract execution to ensure user confidence and transparency.",
+      "High-Fidelity Design: Created a comprehensive design system in Figma for the Admin Treasury and Building Wallet, supporting real-time monitoring of energy consumption and token balances.",
+      "Cross-functional Integration: Bridged the gap between complex blockchain backend logic and frontend UI by designing clear error-handling states and transaction feedback loops, reducing user friction during network latency events."
     ]
   },
   {
@@ -24,15 +36,15 @@
     ]
   },
   {
-    "imageSrc": "blockchain.gif",
-    "role": "Lead UI/UX Designer",
-    "organisation": "Energy Trading & Management System (Blockchain)",
-    "startDate": "July, 2025",
-    "endDate": "February, 2026",
+    "imageSrc": "favicons.png",
+    "role": "UX/UI Project Lead",
+    "organisation": "Keap It Simple",
+    "startDate": "Aug, 2024",
+    "endDate": "Oct, 2024",
     "experiences": [
-      "Engineered a streamlined peer-to-peer (P2P) trading journey, implementing intuitive visual feedback for blockchain transaction states and smart contract execution to ensure user confidence and transparency.",
-      "High-Fidelity Design: Created a comprehensive design system in Figma for the Admin Treasury and Building Wallet, supporting real-time monitoring of energy consumption and token balances.",
-      "Cross-functional Integration: Bridged the gap between complex blockchain backend logic and frontend UI by designing clear error-handling states and transaction feedback loops, reducing user friction during network latency events."
+      "Design Leadership: Led the UI/UX design team for a comprehensive accounting web application.",
+      "Figma Design System: Architected and maintained a robust Design System in Figma to ensure design consistency and accelerate the hand-off process between design and engineering teams.",
+      "Frontend Implementation: Actively contributed to the development phase using TypeScript and Express.js ."
     ]
   }
 ]

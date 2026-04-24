@@ -1,5 +1,56 @@
 [
   {
+    "title": "UX/UI Design - Im-Koom",
+    "description": "A location-based application for discovering nearby yellow-label discounted products, featuring a seamless O2O reservation and checkout experience.",
+    "tags": [
+      "FIGMA",
+      "UI/UX DESIGN",
+      "PROTOTYPING"
+    ],
+    "demoLink": "https://www.figma.com/proto/6EFfhgVdNgGvbycnbRn0kU/Imkoom?node-id=250-12851&page-id=250%3A12480&starting-point-node-id=250%3A12851&t=unZ3Yz2EClowvgty-1",
+    "sourceLink": "https://www.figma.com/design/6EFfhgVdNgGvbycnbRn0kU/Imkoom?node-id=250-12480&t=GlWwS5ONQV8wcx2y-1",
+    "imageSrc": "Imkoomm.png"
+  },
+  {
+    "title": "UX/UI Design - LEMS - Energy Trading & Management System",
+    "imageSrc": "LEMS.png",
+    "description": "Lead UI/UX Designer for a blockchain-based energy trading and management system with token-based billing.",
+    "skills": [
+      "Figma",
+      "UI/UX Design",
+      "Blockchain",
+      "Prototyping"
+    ],
+    "demo": "https://www.figma.com/proto/V0jXsv5rmI1Mbxz1vq9xkH/NIDA-%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%B2-UX-UI?node-id=176-27791&viewport=-1453%2C956%2C0.15&t=0o1El2iZJY0GPQ76-1&scaling=min-zoom&content-scaling=fixed&page-id=74%3A8095",
+    "source": "https://www.figma.com/design/V0jXsv5rmI1Mbxz1vq9xkH/NIDA-%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%B2-UX-UI?node-id=176-27791&t=7DJfet4BtuJByTYY-1"
+  },
+  {
+    "title": "UX/UI Design - Homie Project",
+    "imageSrc": "homie landscape.png",
+    "description": "An integrated smart home management platform designed for seamless control of IoT devices, featuring personalized automation routines and real-time energy consumption analytics.",
+    "skills": [
+      "Figma",
+      "UX/UI Design",
+      "Smart Home",
+      "IoT"
+    ],
+    "demo": "https://www.figma.com/proto/5jb94Hz1CLQBFpcnmGrVmK/final-project?node-id=63-93684&t=vUXmbICxbY3idO1i-1&scaling=scale-down&content-scaling=fixed&page-id=63%3A76961&starting-point-node-id=63%3A93684&show-proto-sidebar=1",
+    "source": ""
+  },
+  {
+    "title": "Full Stack Developer - Course Hub",
+    "imageSrc": "CourseHub.png",
+    "description": "An interactive online learning platform designed to deliver a seamless educational experience, featuring intuitive course discovery and a user-friendly interface.",
+    "skills": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "UX/UI Design"
+    ],
+    "demo": "https://course-hub-beryl.vercel.app/",
+    "source": "https://github.com/PinyoTerchantuk/CourseHub"
+  },
+  {
     "title": "UX/UI Design - Keap",
     "imageSrc": "ui.png",
     "description": "The KEEP IT SIMPLE (Keap) project was a high-impact initiative where you served as the Lead UI/UX Designer ",
@@ -44,21 +95,8 @@
     "source": "https://github.com/chollsak/WokFood"
   },
   {
-    "title": "LEMS - Energy Trading & Management System",
-    "imageSrc": "blockchain.png",
-    "description": "Lead UI/UX Designer for a blockchain-based energy trading and management system with token-based billing.",
-    "skills": [
-      "Figma",
-      "UI/UX Design",
-      "Blockchain",
-      "Prototyping"
-    ],
-    "demo": "https://www.figma.com/proto/ISd3YrL7ozHUeOBleaNTDJ/UI-Blockchain--LEMS---Postpaid-Local-Energy-Management-System--Token-Based-Billing-?page-id=6067%3A1088&node-id=6067-2251&viewport=2941%2C330%2C0.02&t=pEvaCS3cWpOxp6Dn-1&scaling=min-zoom&content-scaling=fixed",
-    "source": "https://www.figma.com/design/ISd3YrL7ozHUeOBleaNTDJ/UI-Blockchain--LEMS---Postpaid-Local-Energy-Management-System--Token-Based-Billing-?node-id=6067-1088&t=EGvG5MQW5CClZkds-1"
-  },
-  {
     "title": "Fanruan Project",
-    "imageSrc": "image (6).png",
+    "imageSrc": "NidaLandscape.png",
     "description": "A digital reading platform with personalized recommendations and progress tracking.",
     "skills": [
       "FineVis (3D Engine)",
